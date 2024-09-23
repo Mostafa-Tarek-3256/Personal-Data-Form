@@ -1,0 +1,78 @@
+<html>
+
+<head>
+    <style>
+        div {
+          margin-bottom: 10px;
+        }
+        label {
+          display: inline-block;
+          width: 90px;
+          text-align: left;
+        }
+      </style>
+</head>
+<body style="background-color: brown;">
+  <fieldset style="background-color: brown;">
+    <legend style="background-color: goldenrod;"><h1 style="color: blue;">Personal Data</h1></legend> 
+    
+    <br><br><br>
+  
+    <form style="color: aliceblue;">
+    <fieldset style="background-color: peru; color: black;" >
+      <legend style="background-color: goldenrod;"><h3>Your name</h3></legend>
+      <br><br><br>
+      <label for="Fname"> First Name </label>
+      <input placeholder="Mostafa" required minlength="3" maxlength="10" type="text" name="First Name" id="Fname">
+  
+      <br><br>
+  
+      <label for="Sname"> Second Name </label>
+      <input placeholder="Tarek" type="text" name="Second Name" id="Sname">
+    </fieldset>
+        <br><br><br><br>
+        <label for="phone">Your Phone</label>
+        <input type="tel" name="Your Phone" required maxlength="11" id="phone">
+        <br><br>
+        <label for="mail">Email</label>
+        <input type="email" name="Email" id="mail">
+        <br><br>
+        <label for="pass">Password</label>
+        <input type="password" name="Password" required min="6" id="pass">
+        <br><br>
+        <label for="rpass">Re-Password</label>
+        <input type="password" name="Re-Password" required min="6" id="rpass">
+        <br><br><br><br>
+        <label for="male">Male</label>
+        <input value="Male" type="radio" name="gender" id="male">
+        <br><br>
+        <label for="fmale">Female</label>
+        <input value="Female" type="radio" name="gender" id="fmale">
+        <br><br>
+        <label for="st">Student</label>
+        <input value="Student" type="radio" name="STU" id="st">
+        <br><br>
+        <label for="grt">Graduated</label>
+        <input value="Graduated" type="radio" name="STU" id="grt">
+        <br><br><br><br>
+        <select name="Country" id="">
+            <optgroup label="Arabic">
+        <option value="egypt">Egypt</option>
+        <option value="Maroc">Maroc</option>
+        <option value="KSA">KSA</option>
+    </optgroup>
+    <optgroup label="Foreign">
+        <option value="USA">USA</option>
+        <option value="France">France</option>
+        <option value="Tutkey">Tutkey</option>
+    </optgroup>
+    </select>
+    <br><br><br><br>
+    
+    <button class="btn"><img src="Image/Button.png" alt="Button" width="80"></button>
+
+    </form>
+  </fieldset>
+</body>
+
+</html>
